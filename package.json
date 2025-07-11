@@ -1,0 +1,17 @@
+{
+  "name": "grow-evaluador",
+  "version": "1.0.0",
+  "description": "Sistema para evaluar emprendimientos",
+  "scripts": {
+    "start": "serve public",
+    "test": "echo 'No tests'"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@mui/material": "^5.15.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
