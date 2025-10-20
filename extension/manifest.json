@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AstraMatch Profile Builder",
+  "description": "Analyze browsing behavior and questionnaire responses to craft a dating profile backed by Big Five and Enneagram insights.",
+  "version": "0.1.0",
+  "permissions": ["history", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AstraMatch"
+  }
+}

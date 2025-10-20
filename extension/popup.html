@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstraMatch Profile Builder</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@xenova/transformers@2.14.1/dist/transformers.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>AstraMatch</h1>
+        <p class="subtitle">Craft a psychologically informed dating profile.</p>
+      </header>
+
+      <section class="status" id="status"></section>
+
+      <section id="questionnaire"></section>
+
+      <section class="actions">
+        <button id="analyzeBtn">Analyze &amp; Generate Profile</button>
+      </section>
+
+      <section id="results" class="hidden">
+        <h2>Your Profile Blueprint</h2>
+        <div id="traitScores"></div>
+        <div id="enneagram"></div>
+        <div id="compatibility"></div>
+        <div id="growth"></div>
+        <div id="profileNarrative"></div>
+      </section>
+    </main>
+
+    <script type="module" src="scripts/popup.js"></script>
+  </body>
+</html>
